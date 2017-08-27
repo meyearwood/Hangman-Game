@@ -1,0 +1,119 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: arial, sans-serif;
+    background-image: url("../images/IMG_539941.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-header {
+    max-width: 960px;
+    color: white;
+    background-color: black;
+    font-size: 70px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    margin-left: 75px;
+}
+
+.game-message {
+    max-width: 665px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+
+/* Letters Container Styles */
+.letters-container {
+    display: flex;
+}
+
+.letters-container {
+    max-width: 665px;
+    color: green;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px 0;
+    margin: 0 auto;
+}
+
+.layout {
+    max-width: 960px;
+    background-color: white;
+    border: 3px solid gray;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-left: 75px;
+    margin-bottom: 50px;
+}
+
+.letters-container
+.letters-container__dash {
+    width: 60px;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 4px solid green;
+    box-sizing: border-box;
+}
+
+.letters-container
+.letters-container__dash +
+.letters-container__dash {
+    margin-left: 10px;
+}
+
+.used-letters-container {
+    max-width: 665px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.used-letters-container__inner {
+    text-transform: uppercase;
+    color: green;
+    font-size: 40px;
+
+}
+
+.stats-container {
+    max-width: 665px;
+    color:white;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin: 30px auto 0 auto;
+    display:flex;
+}
+
+.stats{
+    display:flex;
+    /*justify-content: space-between;*/
+    padding: 5px 15px;
+    margin: 0 auto;
+    flex: 0 0 auto;
+}
+
+.stats
+.stats__term {
+    flex: 0 0 auto;
+    padding: 0 10px
+}
+
+.stats
+.stats__definition {
+    margin: 0;
+}
+
+.stats
+.stats__definition +
+.stats__term {
+    margin-left: 30px;
+}
