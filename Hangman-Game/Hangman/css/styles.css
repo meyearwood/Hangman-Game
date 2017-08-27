@@ -1,0 +1,106 @@
+html {
+
+    font-size: 62.5%;
+}
+
+body {
+
+    font-size: 1.6rem;
+    font-family: arial, sans-serif;
+    background-image: url("../images/IMG_539941.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-header {
+
+    color: white;
+    font-size: 70px;
+    margin-left: 80px;
+    margin-right: 650px;
+    background-color: black;
+    padding-left: 25px;
+
+}
+
+.game-message {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 150px;
+    margin-left: 150px;
+
+}
+
+
+/* Letters Container Styles */
+.letters-container {
+    display: flex;
+}
+
+.letters-container {
+    width: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px;
+    font-size: 70px;
+    color: green;
+
+
+}
+.layout {
+    background-color: white;
+    border: 3px solid gray;
+    margin-right: 650px;
+    margin-left: 75px;
+    margin-bottom: 50px;
+
+}
+.letters-container__dash {
+    width: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 80px;
+    border-bottom: 4px solid green;
+    margin-left: 250px;
+
+}
+
+.letters-container
+.letters-container__dash +
+.letters-container__dash {
+    margin-left: 10px;
+}
+
+.used-letters-container {
+
+    margin-left: 150px;
+}
+
+.used-letters-container__inner {
+    text-transform: uppercase;
+    color: green;
+    font-size: 40px;
+    margin-left: 25px;
+
+}
+
+.stats-container {
+
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    background-color: black;
+    margin-right:95px;
+
+}
+
+.stats{
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
